@@ -11,14 +11,15 @@ import SwiftUI
 struct ContentView: View {
     @State private var selection = 0
  
+    //let configSF = UIImage.SymbolConfiguration(pointSize: 25, weight: .black , scale: .large)
+    
     var body: some View {
-        TabView(selection: $selection){
+        TabView{
             
             Projection()
                 .tabItem {
                     VStack {
-                        Image("first")
-                        Text("First")
+                        Image(systemName: "dollarsign.circle").imageScale(.large)
                     }
                 }
                 .tag(0)
@@ -26,8 +27,7 @@ struct ContentView: View {
             Spending()
                 .tabItem {
                     VStack {
-                        Image("second")
-                        Text("Second")
+                        Image(systemName: "line.horizontal.3.decrease.circle").imageScale(.large)
                     }
                 }
                 .tag(1)
@@ -35,8 +35,7 @@ struct ContentView: View {
             Profile()
                 .tabItem {
                     VStack {
-                        Image("first")
-                        Text("third")
+                        Image(systemName: "person.crop.circle").imageScale(.large)
                     }
                     
                 }

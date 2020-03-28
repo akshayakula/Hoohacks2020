@@ -16,6 +16,7 @@
 		9FCC639D242FE004007ACB39 /* Projection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC639C242FE004007ACB39 /* Projection.swift */; };
 		9FCC639F242FE01E007ACB39 /* Spending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC639E242FE01E007ACB39 /* Spending.swift */; };
 		9FCC63A1242FE032007ACB39 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC63A0242FE032007ACB39 /* Profile.swift */; };
+		9FCC63A5242FF36C007ACB39 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC63A4242FF36C007ACB39 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9FCC639C242FE004007ACB39 /* Projection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projection.swift; sourceTree = "<group>"; };
 		9FCC639E242FE01E007ACB39 /* Spending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spending.swift; sourceTree = "<group>"; };
 		9FCC63A0242FE032007ACB39 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		9FCC63A4242FF36C007ACB39 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				9FCC6388242FD7D2007ACB39 /* AppDelegate.swift */,
 				9FCC638A242FD7D2007ACB39 /* SceneDelegate.swift */,
 				9FCC638C242FD7D2007ACB39 /* ContentView.swift */,
+				9FCC63A3242FF35E007ACB39 /* Data Model */,
 				9FCC63A2242FE03C007ACB39 /* Tabs */,
 				9FCC638E242FD7D5007ACB39 /* Assets.xcassets */,
 				9FCC6393242FD7D5007ACB39 /* LaunchScreen.storyboard */,
@@ -86,10 +89,18 @@
 			isa = PBXGroup;
 			children = (
 				9FCC639C242FE004007ACB39 /* Projection.swift */,
-				9FCC63A0242FE032007ACB39 /* Profile.swift */,
 				9FCC639E242FE01E007ACB39 /* Spending.swift */,
+				9FCC63A0242FE032007ACB39 /* Profile.swift */,
 			);
 			name = Tabs;
+			sourceTree = "<group>";
+		};
+		9FCC63A3242FF35E007ACB39 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FCC63A4242FF36C007ACB39 /* User.swift */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 				9FCC638B242FD7D2007ACB39 /* SceneDelegate.swift in Sources */,
 				9FCC638D242FD7D2007ACB39 /* ContentView.swift in Sources */,
 				9FCC639F242FE01E007ACB39 /* Spending.swift in Sources */,
+				9FCC63A5242FF36C007ACB39 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
