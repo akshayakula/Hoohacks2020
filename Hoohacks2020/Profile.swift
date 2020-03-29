@@ -8,9 +8,17 @@
 
 import SwiftUI
 
+@State private var numOfPeople = "0"
+
 struct Profile: View {
+    
     var body: some View {
-        Text("Profile")
+        
+        //Text("Profile")
+        
+        TextField("Total number of people", text: $numOfPeople)
+        .keyboardType(.numberPad)
+        
     }
 }
 

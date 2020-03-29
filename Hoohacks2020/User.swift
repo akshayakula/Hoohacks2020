@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct User: Hashable, Codable, Identifiable {
+struct User: Hashable, Codable{
     
     var grossIncome: Int // Before Taxes
     
