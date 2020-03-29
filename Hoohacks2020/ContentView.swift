@@ -35,7 +35,7 @@ struct ContentView: View {
             Profile()
                 .tabItem {
                     VStack {
-                        Image(systemName: "person.crop.circle").imageScale(.large)
+                        Image(systemName: "person.circle").imageScale(.large)
                     }
                     
                 }
